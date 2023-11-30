@@ -2,8 +2,6 @@ lista_produtos = ['máscaras faciais', 'batons', 'esmaltes', 'perfumes', 'loçõ
 
 lista_produtos.pop() #remover delineadores na última posição
 
-
-
 for i in range(len(lista_produtos)):
     if(lista_produtos[i] == 'batons'): #substituição
         lista_produtos[i] = 'rímel'
